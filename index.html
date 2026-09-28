@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Camera Calibrate Pro · Support</title>
+<link rel="icon" href="icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap">
+  <div style="display:flex;gap:18px;align-items:center">
+    <img src="icon.png" alt="">
+    <div><h1>Camera Calibrate Pro</h1><p>Your phone as the calibration target</p></div>
+  </div>
+  <nav><a href="./">Support</a><a href="privacy.html">Privacy policy</a></nav>
+</div></header>
+<main class="wrap">
+  <p>Camera Calibrate Pro turns an iPhone into a calibration target for a head-worn stereo camera. The screen shows AprilTag markers drawn exactly to its pixels, so their size is known to the millimetre, and a QR code telling the calibration software which phone and scale it is looking at. You hold the phone in front of the head cameras while they record; the recording is calibrated afterwards with the rig's offline software.</p>
+
+  <h2>How to calibrate</h2>
+  <ol>
+    <li>Start the recording on the headset.</li>
+    <li>Open the app, tap <b>Start calibration</b> and confirm the headset is recording.</li>
+    <li>Hold the phone with the screen facing you and do what the screen says, one step at a time:
+      <b>arm straight</b>, <b>elbow bent</b>, <b>close to your face</b>, then <b>tilt the phone</b> to each side and top toward and away from you.</li>
+    <li>After about a minute the app says <b>All done</b>. Stop the headset recording.</li>
+  </ol>
+  <p class="muted">Each step shows a countdown and ends with a green tick. The markers change size during each step on purpose. The tilt parts complete by themselves when the phone has turned far enough.</p>
+
+  <h2>Questions</h2>
+  <p><b>Do I need Do Not Disturb?</b> No. A notification banner only covers the instructions at the top of the screen, never the markers. If a call or alarm takes over the screen, the interrupted step is simply done again.</p>
+  <p><b>How does the app know the size of the markers?</b> From the phone model's published pixel density. Once per phone model you can check it with a ruler: on the home screen, <i>Check scale with a ruler</i> draws a 100 mm bar; type the length you measure and the app uses it from then on.</p>
+  <p><b>Why does the app use the front camera?</b> Only to measure how far the phone is from your face, so it can say "a bit closer" or "a bit farther". No image is stored or sent.</p>
+  <p><b>Where is my data?</b> On your phone only. Each calibration writes a session log (the phone's motion, its distance from your face, and what was shown when) that leaves the phone only if you share it. See the <a href="privacy.html">privacy policy</a>.</p>
+  <p><b>Which phones work?</b> iPhones with iOS 17 or later. Distance hints need a Face ID iPhone; without it the calibration still works.</p>
+
+  <h2>Contact</h2>
+  <p>Questions or problems: <a href="mailto:kaiwen@mecka.ai">kaiwen@mecka.ai</a></p>
+</main>
+<footer><div class="wrap">© 2026 Kaiwen Yuan</div></footer>
+</body>
+</html>
